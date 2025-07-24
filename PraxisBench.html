@@ -1,0 +1,149 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PraxisBenchmark</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0e0e10;
+      color: #f3f3f3;
+      line-height: 1.6;
+    }
+    header {
+      background: #121212;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #1f1f22;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+    }
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      color: #00d1ff;
+    }
+    .category, .example {
+      background: #1a1a1c;
+      padding: 1rem 1.5rem;
+      margin: 1rem 0;
+      border-left: 5px solid #00d1ff;
+      border-radius: 8px;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #00d1ff;
+      text-decoration: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #2c2c2e;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    th {
+      background-color: #1f1f22;
+      color: #00d1ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PraxisBenchmark</h1>
+    <p>Evaluación avanzada de modelos generativos de texto e imagen</p>
+  </header>  <div class="section">
+    <h2>¿Qué es PraxisBenchmark?</h2>
+    <p>PraxisBenchmark es un sistema de evaluación diseñado para medir el rendimiento real de modelos de inteligencia artificial generativa, tanto en texto como en imágenes. Está pensado para evaluar capacidades como razonamiento, búsqueda, creatividad y promptabilidad.</p><h2>Categorías</h2>
+
+<div class="category">
+  <strong>SLGT</strong>: Short and Large Generative Text<br>
+  <em>Evalúa generación de texto corto y largo, coherencia, estilo y precisión.</em>
+</div>
+
+<div class="category">
+  <strong>GSI</strong>: Generative Simple Images<br>
+  <em>Generación de imágenes sencillas sin necesidad de prompt complejo.</em>
+</div>
+
+<div class="category">
+  <strong>GPI</strong>: Generative Prompteable Images<br>
+  <em>Evalúa modelos que responden bien a prompts específicos y detallados.</em>
+</div>
+
+<div class="category">
+  <strong>DTSO</strong>: Deep Thinking and Search Online<br>
+  <em>Pruebas que requieren razonamiento profundo y uso de búsqueda en tiempo real.</em>
+</div>
+
+<h2>Promptabilidad</h2>
+<p>En PraxisBenchmark, la promptabilidad es una métrica clave, aunque se reconoce que no puede alcanzar el 100%, ya que los prompts varían en forma y contexto. Se mide la capacidad del modelo para entender, responder y adaptarse a prompts complejos.</p>
+
+<h2>Escala de Interpretación</h2>
+<p>Las puntuaciones se expresan en una escala de 0 a 100. Valores cercanos a 100 indican excelencia en la tarea evaluada, mientras que valores bajos indican carencias significativas.</p>
+<ul>
+  <li><strong>90 - 100</strong>: Nivel sobresaliente, dominio absoluto de la tarea.</li>
+  <li><strong>75 - 89</strong>: Muy bueno, pero con márgenes de mejora.</li>
+  <li><strong>50 - 74</strong>: Correcto, pero limitado o inconsistente.</li>
+  <li><strong>0 - 49</strong>: Bajo rendimiento o fallos frecuentes.</li>
+</ul>
+
+<h2>Comparativa: Meta AI LLaMA 4 vs GPT-4</h2>
+<div class="example">
+  <table>
+    <thead>
+      <tr>
+        <th>Modelo</th>
+        <th>SLGT</th>
+        <th>GSI</th>
+        <th>GPI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>GPT-4</strong></td>
+        <td>94.0</td>
+        <td>86</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td><strong>LLaMA 4</strong></td>
+        <td>22.6</td>
+        <td>75</td>
+        <td>93</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Repositorio</h2>
+<p>Puedes ver y contribuir al proyecto en <a href="https://github.com/praxisia" target="_blank">nuestro GitHub</a>.</p>
+
+  </div>  <div class="footer">
+    Sitio creado por TokeNet Founder · Praxis, Tokenet & LDC© 2025
+  </div>
+</body>
+</html>
